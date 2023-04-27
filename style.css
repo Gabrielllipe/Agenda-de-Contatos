@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #F7ECDE;
+    margin-bottom: 100px;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+}
+
+img{
+    height: 35px;
+}
+
+h1{
+    margin-left: 12px;
+}
+
+input{
+    padding: 5px;
+    width: 261px;
+    height: 37px;
+    border-radius: 6px;
+}
+
+button{
+    padding: 5px;
+    cursor: pointer;
+    height: 37px;
+    width: 108px;
+    background-color: #9ED2C6;
+    border-color: #54BAB9;
+    border-radius: 6px;
+}
+
+table{
+    margin-top: 50px;
+    width: 100%;
+}
+
+td{
+    height: 50px;
+    background-color: #E9DAC1;
+    border-bottom: 1px solid #000;
+    padding-left: 10px;
+}
+
+th{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+}
+
+tr{
+    margin-bottom: 100px;
+}
+
+@media (max-width: 650px){
+    input{
+        margin-top: 15px;
+        width: 100%;
+        padding: 20px;
+    }
+    button{
+    padding: 20px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: center;
+    }
+    #form{
+        margin: 0 20px;
+    }
+}
